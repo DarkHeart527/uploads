@@ -3,9 +3,15 @@
     <script>
          var v = prompt('Download Code Please.');
           if (v.toLowerCase() == '3ct6w') {
-            document.getElementById.style = '';
+            //location = location + '#download-3ct6w';
+       document.getElementById('complete').style = ''; 
             alert('Download For Isaiah M. Opened. Thank You!');
           }
+      var loc = location;
+      var loc = loc.split('#');
+      if (loc[1] == 'download-3ct6w') {
+       document.getElementById('complete').style = ''; 
+      }
     </script>
     <p>These are files I uploaded for peeps</p>
     <p><a href="http://codark.com">My Website</a></p>
